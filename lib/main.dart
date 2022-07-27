@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:new_project/firstpage.dart';
+import 'package:new_project/data.dart';
 import 'package:new_project/helloworld.dart';
+import 'package:new_project/homescreen.dart';
 import 'package:new_project/picturefile.dart';
 import 'package:new_project/practical_13.dart';
 import 'package:new_project/splashscreen.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const FirstPage(),
+      home: const HomeScreen(),
     );
   }
 }

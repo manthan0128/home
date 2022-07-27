@@ -31,3 +31,38 @@
 // }
 //
 
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+class Data extends StatefulWidget {
+  const Data({Key? key}) : super(key: key);
+
+  @override
+  State<Data> createState() => _DataState();
+}
+
+class _DataState extends State<Data> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("DATA"),
+      ),
+      body: SafeArea(
+        child: Center(
+          child: Column(
+            children: [
+              ElevatedButton(onPressed: (){
+                Navigator.pop(context,'done');
+              }, child:Text("yes")),
+              SizedBox(height: 20,),
+              ElevatedButton(onPressed: (){
+                Navigator.pop(context,'thank you');
+              }, child:Text("over")),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

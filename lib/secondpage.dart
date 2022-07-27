@@ -31,4 +31,3 @@ class _SecondPageState extends State<SecondPage> {
   }
 
 }
- void _send
