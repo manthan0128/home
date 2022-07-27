@@ -2,7 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class FirstPage extends StatefulWidget {
-  _FirstPageState createState(){}
+  _FirstPageState createState(){
+    
+  }
   const FirstPage({Key? key}) : super(key: key);
 
   @override
